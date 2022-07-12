@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Encode Sans Expanded:400,600,700&display=swaps");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffff;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+.top-nav {
+    background-color: #191919;
+    padding: 0.5rem 0;
+}
+
+.top-nav-links,
+.top-nav-social {
+    text-align: center;
+    margin: 0.5rem 1rem;
+}
+
+.top-nav-links li,
+.top-nav-social li {
+    display: inline-block;
+    text-align: center;
+    padding-right: 0.75rem;
+    line-height: 1.6;
+}
+
+.top-nav-links li a,
+.top-nav-social li a {
+    color: #aaaaaa;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    transition: all 0.3s linear;
+}
+
+.top-nav-links li a:hover,
+.top-nav-social li a:hover {
+    color: #f9b500;
+}
+
+nav {
+    position: relative;
+    height: 80px;
+}
+
+.menu-icon {
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.menu-icon button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.menu-icon button:hover {
+    color: #f9b500;
+}
+
+.search-form {
+    display: none;
+}
+
+.logo {
+    width: 7rem;
+}
+
+.menu-btn {
+    font-size: 1.5rem;
+}
+
+.main-menu {
+    position: absolute;
+    width: 70vw;
+    height: auto;
+    top: 5rem;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+    visibility: hidden;
+}
+
+.show-menu {
+    visibility: visible;
+}
+
+.main-menu li {
+    padding: 1rem;
+    border-top: 1px solid #eeeeee;
+    cursor: pointer;
+}
+
+.main-menu li a {
+    display: block;
+    color: #333;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.2s linear;
+}
+
+.main-menu li:hover a {
+    color: #f9b500 !important;
+    padding-left: 5px;
+}
