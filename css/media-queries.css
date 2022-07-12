@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 991px;
+    }
+    .top-nav {
+        display: flex;
+        justify-content: space-between;
+        place-items: center;
+        padding: 0 6rem;
+    }
+    .top-nav-social li:last-child {
+        padding-right: 0;
+    }
+    nav {
+        padding: 0 7rem;
+    }
+    .menu-icon {
+        padding: 0;
+    }
+    .menu-btn {
+        display: none;
+    }
+    .menu-icon {
+        justify-content: space-between;
+    }
+    .main-menu {
+        position: relative;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        box-shadow: none;
+    }
+    .main-menu li {
+        padding: 0;
+        border-top: 0;
+    }
+    .main-menu li a {
+        display: inline-block;
+    }
+    .main-menu li:hover a {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 1199px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 100%;
+    }
+}
