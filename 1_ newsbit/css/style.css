@@ -31,7 +31,7 @@ ul li {
 .top-nav-links,
 .top-nav-social {
     text-align: center;
-    margin: 0.5rem 1rem;
+    /* margin: 0.5rem 1rem; */
 }
 
 .top-nav-links li,
@@ -40,6 +40,10 @@ ul li {
     text-align: center;
     padding-right: 0.75rem;
     line-height: 1.6;
+}
+
+.top-nav-social li:last-of-type {
+    padding-right: 0;
 }
 
 .top-nav-links li a,
@@ -79,10 +83,6 @@ nav {
 
 .menu-icon button:hover {
     color: #f9b500;
-}
-
-.search-form {
-    display: none;
 }
 
 .logo {

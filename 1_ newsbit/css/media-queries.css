@@ -6,46 +6,59 @@
         display: flex;
         justify-content: space-between;
         place-items: center;
-        padding: 0 6rem;
-    }
-    .top-nav-social li:last-child {
-        padding-right: 0;
+        padding: 0.8rem 5rem;
     }
     nav {
-        padding: 0 7rem;
+        padding: 0 5rem;
     }
     .menu-icon {
+        justify-content: space-between;
         padding: 0;
     }
     .menu-btn {
         display: none;
     }
-    .menu-icon {
-        justify-content: space-between;
-    }
     .main-menu {
         position: relative;
         top: 0;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         background-color: #fff;
         box-shadow: none;
+        visibility: visible;
     }
     .main-menu li {
-        padding: 0;
+        display: inline-block;
         border-top: 0;
+        padding: 0;
     }
     .main-menu li a {
-        display: inline-block;
+        letter-spacing: 0;
+        font-size: 12px;
+        padding-left: 0.9rem;
     }
-    .main-menu li:hover a {
-        padding-left: 0;
+    .main-menu li a:hover {
+        padding-left: 0.9rem;
     }
 }
 
 @media screen and (min-width: 992px) {
     .container {
         max-width: 1199px;
+    }
+    .logo {
+        width: 10rem;
+    }
+    .main-menu {
+        justify-content: flex-end;
+    }
+    .main-menu li a {
+        letter-spacing: 1px;
+        font-size: 12px;
+        padding-left: 2.5rem;
+    }
+    .main-menu li a:hover {
+        padding-left: 2.5rem;
     }
 }
 
