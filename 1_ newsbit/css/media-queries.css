@@ -1,19 +1,17 @@
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 991px;
-    }
     .top-nav {
+        max-width: 690px;
         display: flex;
         justify-content: space-between;
         place-items: center;
-        padding: 0.8rem 5rem;
+        padding: 0.8rem 0;
+    }
+    .container {
+        max-width: 690px;
     }
     nav {
-        padding: 0 5rem;
-    }
-    .menu-icon {
         justify-content: space-between;
-        padding: 0;
+        padding: 0 0;
     }
     .menu-btn {
         display: none;
@@ -35,35 +33,58 @@
     .main-menu li a {
         letter-spacing: 0;
         font-size: 12px;
-        padding-left: 0.9rem;
+        padding-left: 0.7rem;
     }
     .main-menu li a:hover {
-        padding-left: 0.9rem;
+        padding-left: 0.7rem;
+    }
+    main {
+        padding: 0;
+    }
+    .banner {
+        height: 603px;
+    }
+    .first-row {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 402px;
+        margin-bottom: .25rem;
+    }
+    .first-row>div {
+        height: 397px !important;
+    }
+    .seccend-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /*gap: .75rem;*/
+    }
+    .banner-item {
+        height: 197px !important;
+        margin-bottom: 0;
+        margin: 0.25rem;
+    }
+    .item-info {
+        background: none;
     }
 }
 
 @media screen and (min-width: 992px) {
+    .top-nav {
+        max-width: 930px;
+    }
     .container {
-        max-width: 1199px;
+        max-width: 930px;
     }
     .logo {
         width: 10rem;
     }
-    .main-menu {
-        justify-content: flex-end;
-    }
-    .main-menu li a {
-        letter-spacing: 1px;
-        font-size: 12px;
-        padding-left: 2.5rem;
-    }
-    .main-menu li a:hover {
-        padding-left: 2.5rem;
-    }
 }
 
 @media screen and (min-width: 1200px) {
+    .top-nav {
+        max-width: 1110px;
+    }
     .container {
-        max-width: 100%;
+        max-width: 1110px;
     }
 }
