@@ -1,3 +1,11 @@
+@media screen and (min-width: 576px) {
+    .recent-news-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.9rem;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .top-nav {
         max-width: 690px;
@@ -48,12 +56,12 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 402px;
-        margin-bottom: .25rem;
+        margin-bottom: 0.25rem;
     }
     .first-row>div {
         height: 397px !important;
     }
-    .seccend-row {
+    .second-row {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         /*gap: .75rem;*/
