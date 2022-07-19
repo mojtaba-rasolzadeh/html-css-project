@@ -1,8 +1,9 @@
 @media screen and (min-width: 576px) {
-    .recent-news-item {
+    .recent-news-item,
+    .mining-news {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1.9rem;
+        gap: 2rem;
     }
 }
 

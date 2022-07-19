@@ -252,11 +252,13 @@ main {
     flex-direction: column;
 }
 
-.first-column-img {
+.first-column-img,
+.mining-news-item img {
     width: 100%;
 }
 
-.first-column-title {
+.first-column-title,
+.mining-news-item-title {
     margin-top: 1rem;
     font-size: 1.15rem;
     font-weight: 700;
@@ -265,15 +267,18 @@ main {
     transition: all 0.3s linear;
 }
 
-.first-column-title:hover {
+.first-column-title:hover,
+.mining-news-item-title:hover {
     color: #f9b500;
 }
 
-.first-column-list {
+.first-column-list,
+.mining-news-item-list {
     margin: 0.75rem 0 1.5rem 0;
 }
 
-.first-column-list li {
+.first-column-list li,
+.mining-news-item-list li {
     display: inline-block;
     font-size: 13px;
     color: #888888;
@@ -281,14 +286,16 @@ main {
     line-height: 2;
 }
 
-.first-column-list li a {
+.first-column-list li a,
+.mining-news-item-list li a {
     font-weight: 700;
     text-transform: capitalize;
     color: #333333;
     transition: all 0.3s linear;
 }
 
-.first-column-list li a:hover {
+.first-column-list li a:hover,
+.mining-news-item-list li a:hover {
     color: #f9b500;
 }
 
@@ -334,4 +341,22 @@ main {
     font-size: 12px;
     font-weight: 600;
     text-transform: capitalize;
+}
+
+.view-more-btn {
+    cursor: pointer;
+    width: 100%;
+    color: #f9b500;
+    border: 1px solid #f9b500;
+    background: transparent;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    transition: all 0.3s linear;
+}
+
+.view-more-btn:hover {
+    background-color: #f9b500;
+    color: #191919;
 }
