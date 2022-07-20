@@ -75,6 +75,10 @@
     .item-info {
         background: none;
     }
+    .sidebar {
+        max-width: 330px;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -86,6 +90,14 @@
     }
     .logo {
         width: 10rem;
+    }
+    .news-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 3rem;
+    }
+    .sidebar {
+        margin-top: 1.5rem;
     }
 }
 
