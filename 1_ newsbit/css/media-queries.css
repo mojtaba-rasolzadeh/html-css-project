@@ -5,6 +5,11 @@
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
+    .footer-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -65,7 +70,6 @@
     .second-row {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        /*gap: .75rem;*/
     }
     .banner-item {
         height: 197px !important;
@@ -78,6 +82,14 @@
     .sidebar {
         max-width: 330px;
         margin: 0 auto;
+    }
+    footer {
+        max-width: 690px;
+        padding: 3rem 0 0.5rem 0;
+    }
+    .footer-links {
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -99,6 +111,9 @@
     .sidebar {
         margin-top: 1.5rem;
     }
+    footer {
+        max-width: 930px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -106,6 +121,9 @@
         max-width: 1110px;
     }
     .container {
+        max-width: 1110px;
+    }
+    footer {
         max-width: 1110px;
     }
 }
