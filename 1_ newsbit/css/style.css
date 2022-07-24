@@ -30,6 +30,7 @@ ul li>i {
     max-width: 720px;
     margin: 0 auto;
     overflow-x: hidden;
+    padding: 0.5rem 0;
 }
 
 .top-nav-links,
@@ -96,12 +97,13 @@ nav {
 
 .main-menu {
     position: absolute;
-    width: 70vw;
+    width: 93.8%;
     height: auto;
     top: 4rem;
     background-color: #fff;
     box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
     visibility: hidden;
+    z-index: 50;
 }
 
 .show-menu {
